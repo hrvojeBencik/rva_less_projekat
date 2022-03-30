@@ -1,0 +1,45 @@
+@import (once) '../css/mixins.less';
+
+.main {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  img {
+    width: 100%;
+    opacity: 0.4;
+  }
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+    .header {
+      display: none;
+    }
+  }
+
+  .header {
+    .center-text-on-image();
+    .header-style();
+  }
+}
+
+.about {
+  p {
+    text-align: justify;
+  }
+  .btn-primary {
+    .button-style();
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .main {
+    .header {
+      .center-text-on-image();
+      font-size: 2em;
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
