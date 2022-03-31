@@ -16,11 +16,12 @@
 				}
 			],
 			"sources": [
-				"C:/Program Files (x86)/Crunch/https:/fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap",
+				"../../../../../../Applications/Crunch 2.app/Contents/Resources/app.nw/https:/fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap",
+				"contact.less",
+				"gallery.less",
 				"index.less",
 				"mixins.less",
-				"nav.less",
-				"style.less"
+				"nav.less"
 			]
 		}
 	}

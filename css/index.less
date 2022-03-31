@@ -4,6 +4,7 @@
   position: relative;
   text-align: center;
   margin-top: 30px;
+
   img {
     width: 100%;
     opacity: 0.4;
@@ -13,6 +14,7 @@
     img {
       opacity: 1;
     }
+
     .header {
       display: none;
     }
@@ -28,6 +30,13 @@
   p {
     text-align: justify;
   }
+
+  h2,
+  h3 {
+    .section-title(white);
+    text-align: center;
+  }
+
   .btn-primary {
     .button-style();
   }
@@ -39,6 +48,22 @@
       .center-text-on-image();
       font-size: 2em;
       font-weight: bold;
+      color: black;
+    }
+  }
+
+  .about {
+    p {
+      padding: 0 10px;
+    }
+  }
+}
+
+@media only screen and (device-width: 240px) and (device-height: 240px) {
+  .main {
+    .header {
+      .center-text-on-image();
+      font-size: 1em;
       color: black;
     }
   }
