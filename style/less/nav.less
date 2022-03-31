@@ -1,0 +1,58 @@
+@text-color: black;
+@hover-color: #eee;
+
+#logo {
+    width: 150px;
+    display: inline;
+    margin-top: 10px;
+}
+
+.custom-nav {
+    ul {
+        list-style-type: none;
+        padding-top: 30px;
+        float: right;
+
+        a {
+            text-decoration: none;
+            color: @text-color;
+            margin-left: 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+
+            &:hover {
+                background-color: @hover-color;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .custom-nav {
+        ul {
+            a {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (device-width: 240px) and (device-height: 240px) {
+    #logo {
+        width: 100%;
+    }
+
+    .custom-nav {
+        ul {
+            list-style-type: none;
+            padding-top: 10px;
+            float: left;
+
+            a {
+                font-weight: normal;
+                margin-left: 0;
+                padding: 2px 4px;
+            }
+        }
+    }
+}

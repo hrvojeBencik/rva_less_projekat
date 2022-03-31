@@ -1,0 +1,28 @@
+{
+	"files": {
+		"style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "style.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"../../../../../../Applications/Crunch 2.app/Contents/Resources/app.nw/https:/fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap",
+				"contact.less",
+				"gallery.less",
+				"index.less",
+				"mixins.less",
+				"nav.less"
+			]
+		}
+	}
+}
