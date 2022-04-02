@@ -50,7 +50,6 @@
 @media only screen and (device-width: 240px) and (device-height: 240px) {
   #logo {
     width: 100%;
-    display: inline-block;
   }
   .custom-nav ul {
     list-style-type: none;
