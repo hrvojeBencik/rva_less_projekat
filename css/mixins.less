@@ -1,3 +1,5 @@
+@import (reference) './style.css';
+
 .center-text-on-image() {
   position: absolute;
   top: 50%;
@@ -20,7 +22,7 @@
   padding: 10px 0;
   font-weight: bold;
   display: block;
-  margin: 0 auto;
+  margin: @center-margin;
 }
 
 .section-title(@color) when (lightness(@color) >=50%) {

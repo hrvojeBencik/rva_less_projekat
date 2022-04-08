@@ -47,7 +47,7 @@
     margin-left: 0;
   }
 }
-@media only screen and (device-width: 240px) and (device-height: 240px) {
+@media only screen and (device-width: 240px) {
   #logo {
     width: 100%;
   }
@@ -120,7 +120,7 @@
     padding: 0 10px;
   }
 }
-@media only screen and (device-width: 240px) and (device-height: 240px) {
+@media only screen and (device-width: 240px) {
   .main .header {
     position: absolute;
     top: 50%;
@@ -182,7 +182,7 @@ body {
     width: 100%;
   }
 }
-@media only screen and (device-width: 240px) and (device-height: 240px) {
+@media only screen and (device-width: 240px) {
   .custom-container {
     width: 100%;
     height: 100%;
